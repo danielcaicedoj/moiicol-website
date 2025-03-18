@@ -1,21 +1,26 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/Home';
-import About from './components/About';
-import Contact from './components/Contact';
+import Home from './pages/Home';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
-  return (
-    <BrowserRouter basename="/moiicol-website"> {/* Agrega basename */}
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-    </BrowserRouter>
-  );
-}
+    const basename = import.meta.env.REACT_APP_BASENAME; // Usa import.meta.env
+    return (
+      <BrowserRouter basename={basename}>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
+    );
+  }
 
-export default App;
 
+  export default App;

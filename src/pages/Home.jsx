@@ -1,4 +1,7 @@
+// src/components/Contact.jsx
+import React from 'react';
 import BlogCard from "../components/BlogCard";
+
 
 const Home = () => {
     const blogs = [

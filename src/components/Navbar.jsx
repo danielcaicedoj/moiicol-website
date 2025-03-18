@@ -1,40 +1,30 @@
-import { useState } from "react";
+import React from 'react';
+import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
 
-const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-
+function Navbar() {
   return (
-    <nav className="bg-white shadow-md py-4">
-      <div className="container mx-auto px-6 flex justify-between items-center">
-        {/* Logo */}
-        <a className="text-xl font-bold" href="/">Moii</a>
-
-        {/* Menú Desktop */}
-        <div className="hidden md:flex space-x-6">
-          <a className="hover:underline" href="/">Inicio</a>
-          <a className="hover:underline" href="/blog">Blog</a>
-          <a className="hover:underline" href="/contacto">Contacto</a>
+    <nav className="bg-gray-800 p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <Link to="/" className="text-white font-bold text-xl">
+          Moiicol
+        </Link>
+        <div className="flex space-x-4">
+          <Link to="/" className="text-gray-300 hover:text-white">
+            Inicio
+          </Link>
+          <Link to="/about" className="text-gray-300 hover:text-white">
+            Acerca
+          </Link>
+          <Link to="/services" className="text-gray-300 hover:text-white">
+            Servicios
+          </Link>
+          <Link to="/contact" className="text-gray-300 hover:text-white">
+            Contacto
+          </Link>
         </div>
-
-        {/* Botón Menú Móvil */}
-        <button
-          className="md:hidden shadow-md focus:outline-none"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          ☰
-        </button>
       </div>
-
-      {/* Menú Móvil */}
-      {menuOpen && (
-        <div className="md:hidden flex flex-col items-center space-y-2 mt-4">
-          <a className="hover:underline" href="/">Inicio</a>
-          <a className="hover:underline" href="/blog">Blog</a>
-          <a className="hover:underline" href="/contacto">Contacto</a>
-        </div>
-      )}
     </nav>
   );
-};
+}
 
 export default Navbar;
