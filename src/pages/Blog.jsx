@@ -3,7 +3,8 @@ import React from 'react';
 import BlogCard from "../components/BlogCard";
 import NewsHeader from '../components/NewsHeader';
 
-const Home = () => {
+
+const Blog = () => {
     const blogs = [
         { title: "Blog 1", content: "Contenido del blog 1..." },
         { title: "Blog 2", content: "Contenido del blog 2..." },
@@ -23,4 +24,4 @@ const Home = () => {
     );
 };
 
-export default Home;
+export default Blog;
