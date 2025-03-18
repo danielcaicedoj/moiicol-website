@@ -1,0 +1,30 @@
+name: Desplegar a GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Cambia a master si estás usando master
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout ️
+        uses: actions/checkout@v3
+
+      - name: Configurar Node.js 
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # O la versión que estés usando
+
+      - name: Instalar dependencias 
+        run: npm install # O yarn install o pnpm install
+
+      - name: Generar build ️
+        run: npm run build # O yarn build o pnpm build
+
+      - name: Desplegar a GitHub Pages 
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: dist # La carpeta de la build
