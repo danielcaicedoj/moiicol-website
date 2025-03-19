@@ -1,8 +1,15 @@
-const BlogCard = ({ title, content }) => {
+import { Link } from "react-router-dom";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+
+const BlogCard = ({id, title, content }) => {
     return (
-        <div className="bg-white p-4 shadow rounded-lg">
-            <h3 className="text-lg font-semibold">{title}</h3>
-            <p>{content}</p>
+        <div className="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md">
+            <h2 className="text-2xl font-bold mb-2">{title}</h2>
+            <ReactMarkdown remarkPlugins={[remarkGfm]}>{content}</ReactMarkdown>
+            <Link to={`/blog/${id}`} className="text-blue-500 hover:underline">
+                Leer más →
+            </Link>
         </div>
     );
 };
