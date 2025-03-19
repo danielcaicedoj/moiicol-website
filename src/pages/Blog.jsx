@@ -1,27 +1,25 @@
-// src/components/Contact.jsx
-import React from 'react';
+import { blogs } from "../data/blogs";
 import BlogCard from "../components/BlogCard";
-import NewsHeader from '../components/NewsHeader';
 
+console.log(blogs);  // Revisa si aquí hay datos
 
-const Blog = () => {
-    const blogs = [
-        { title: "Blog 1", content: "Contenido del blog 1..." },
-        { title: "Blog 2", content: "Contenido del blog 2..." },
-        { title: "Blog 3", content: "Contenido del blog 3..." },
-        { title: "Blog 4", content: "Contenido del blog 4..." }
-    ];
-
-    return (
-        <div className="container mx-auto my-8 px-4">
-            <NewsHeader />
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                {blogs.map((blog, index) => (
-                    <BlogCard key={index} title={blog.title} content={blog.content} />
-                ))}
-            </div>
-        </div>
-    );
-};
+function Blog() {
+  return (
+    <div className="container">
+      <h1>Blog de Café y Gastronomía</h1>
+      <div className="blog-list">
+        {blogs && blogs.length > 0 ? (
+          blogs.map(blog => 
+            <BlogCard 
+              key={blog.id} 
+              tittle={blog.title}
+              content={blog.content} />)
+        ) : (
+          <p>No hay blogs disponibles.</p>
+        )}
+      </div>
+    </div>
+  );
+}
 
 export default Blog;
