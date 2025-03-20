@@ -16,15 +16,19 @@ function App() {
     const basename = import.meta.env.REACT_APP_BASENAME; // Usa import.meta.env
     return (
       <BrowserRouter basename={basename}>
+        <div className="flex flex-col min-h-screen">
         <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:id" element={<BlogPost />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-        <Footer />
+        <main className="flex-grow bg-gray-100">
+          <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} />
+              <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/:id" element={<BlogPost />} />
+              <Route path="/contact" element={<Contact />} />
+            </Routes>
+        </main>  
+          <Footer />
+        </div>
       </BrowserRouter>
     );
   }

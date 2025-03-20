@@ -3,22 +3,22 @@ import { Link } from 'react-router-dom'; // Importa Link desde react-router-dom
 
 function Navbar() {
   return (
-    <nav className="bg-gray-800 p-4">
+    <nav className="bg-yellow-600 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-white font-bold text-xl">
           Moiicol
         </Link>
         <div className="flex space-x-4">
-          <Link to="/" className="text-gray-300 hover:text-white">
+          <Link to="/" className="text-white hover:text-sky-300">
             Inicio
           </Link>
-          <Link to="/about" className="text-gray-300 hover:text-white">
+          <Link to="/about" className="text-white hover:text-sky-300">
             Acerca
           </Link>
-          <Link to="/blog" className="text-gray-300 hover:text-white">
+          <Link to="/blog" className="text-white hover:text-sky-300">
             Blog
           </Link>
-          <Link to="/contact" className="text-gray-300 hover:text-white">
+          <Link to="/contact" className="text-white hover:text-sky-300">
             Contacto
           </Link>
         </div>
