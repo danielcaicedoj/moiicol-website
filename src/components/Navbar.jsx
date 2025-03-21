@@ -19,7 +19,7 @@ function Navbar() {
             Blog
           </Link>
           <Link to="/contact" className="text-white hover:text-sky-300">
-            Contacto
+            Productos
           </Link>
         </div>
       </div>

@@ -1,8 +1,8 @@
 // src/components/Contact.jsx
 import React from 'react';
 
-function Contact() {
+function Products() {
   return <h1>Contacto</h1>;
 }
 
-export default Contact;
+export default Products;
