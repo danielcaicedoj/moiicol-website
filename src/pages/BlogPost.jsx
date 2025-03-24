@@ -1,44 +1,38 @@
 import React, { useState, useEffect } from "react";
 import ReactMarkdown from "react-markdown";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import remarkGfm from "remark-gfm";
 import { blogs } from "../data/blogs";
 import TableOfContents from "../components/TableOfContents";
 import ScrollToTopButton from "../components/ScrollToTopButton";
 
 const BlogPost = () => {
-    const { id } = useParams();
-    const blog = blogs.find(blog => blog.id === parseInt(id));
+    const { slug } = useParams();
+    const blog = blogs.find(blog => blog.slug === slug);
     const [headings, setHeadings] = useState([]);
 
     if (!blog) {
         return <p>Blog no encontrado</p>;
     }
 
-    // Extraer los títulos antes del renderizado
     useEffect(() => {
         const extractedHeadings = [];
         const markdownContent = blog.content;
-
-        // Usamos una expresión regular para encontrar títulos (h1, h2, h3, h4)
         const regex = /^(#{1,4})\s(.+)$/gm;
         let match;
         while ((match = regex.exec(markdownContent)) !== null) {
-            const level = match[1].length; // Determina si es h1, h2, etc.
+            const level = match[1].length;
             const text = match[2];
             const id = text.toLowerCase().replace(/\s+/g, "-");
             extractedHeadings.push({ id, text, level });
         }
-
         setHeadings(extractedHeadings);
-    }, [blog.content]); // Solo se ejecuta cuando el contenido cambia
+    }, [blog.content]);
 
     return (
-        <div className="container mx-auto my-8 px-6 bg-white p-2 shadow rounded-lg">
-            <div className="max-w-4xl mx-auto bg-white p-6 rounded-lg shadow-md prose">
+        <div className="mx-auto my-8 px-4 md:px-6 md:bg-white md:p-4 md:shadow md:rounded-lg">
+            <div className="md:max-w-4xl md:mx-auto md:bg-white md:p-6 md:rounded-lg md:shadow-md prose">
                 <h1 className="text-3xl font-bold mb-2">{blog.title}</h1>
-
-                {/* Muestra la tabla de contenido antes del contenido */}
                 {headings.length > 0 && <TableOfContents headings={headings} />}
 
                 <ReactMarkdown
@@ -60,13 +54,21 @@ const BlogPost = () => {
                             const id = props.children.toString().toLowerCase().replace(/\s+/g, "-");
                             return <h4 id={id} className="text-xl font-medium mt-5 mb-4" {...props} />;
                         },
-                        p: ({ node, ...props }) => <p className="text-base leading-relaxed mb-4" {...props} />
+                        p: ({ node, ...props }) => <p className="text-base leading-relaxed mb-4" {...props} />, 
+                        ul: ({ node, ...props }) => <ul className="list-disc pl-5 mb-4" {...props} />, 
+                        ol: ({ node, ...props }) => <ol className="list-decimal pl-5 mb-4" {...props} />, 
+                        li: ({ node, ...props }) => <li className="mb-1" {...props} />, 
+                        a: ({ href, children, ...props }) => {
+                            if (href.startsWith("/")) {
+                                return <Link to={href} className="text-blue-600 hover:underline" {...props}>{children}</Link>;
+                            }
+                            return <a href={href} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline" {...props}>{children}</a>;
+                        }
                     }}
                 >
                     {blog.content}
                 </ReactMarkdown>
             </div>
-            {/* El botón para volver al inicio */}
             <ScrollToTopButton />
         </div>
     );

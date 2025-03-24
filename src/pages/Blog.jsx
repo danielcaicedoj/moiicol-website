@@ -12,7 +12,7 @@ function Blog() {
           blogs.map(blog => 
             <BlogCard 
               key={blog.id}
-              id = {blog.id} 
+              slug = {blog.slug} 
               title={blog.title}
               content={blog.content.substring(0,250)+" ..."} />)
         ) : (

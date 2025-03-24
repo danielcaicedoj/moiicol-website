@@ -7,7 +7,7 @@ export const news = [
       image: "https://ejemplo.com/cafe-colombia.jpg",
       content: `
 
-## Prueba nuestro coldbrew, café infusionado durantr 24 horas en frio.
+## Prueba nuestro coldbrew, café infusionado durante 24 horas en frio.
 
     `,
     },
