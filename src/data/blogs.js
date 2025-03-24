@@ -170,11 +170,11 @@ La cafetera moka sigue siendo un ícono del café en casa, con versiones clásic
     },
     {
       id: 3,
-      title: "Diferencias entre Cold Brew y Café Helado",
+      title: "Todo sobre la Aeropress",
       slug: "",
       category: "Técnicas",
       date: "2025-03-16",
       image: "https://ejemplo.com/coldbrew.jpg",
-      content: "¿Sabes qué los hace diferentes? Te explicamos todo sobre estas dos bebidas."
+      content: "Aeropress..."
     }
   ];
