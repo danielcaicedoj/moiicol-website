@@ -20,11 +20,12 @@ const BlogPost = () => {
         const markdownContent = blog.content;
         const regex = /^(#{1,4})\s(.+)$/gm;
         let match;
+        let counter = 0;
         while ((match = regex.exec(markdownContent)) !== null) {
             const level = match[1].length;
             const text = match[2];
             const id = text.toLowerCase().replace(/\s+/g, "-");
-            extractedHeadings.push({ id, text, level });
+            extractedHeadings.push({ id, text, level, counter: level === 2 ? ++counter : null });
         }
         setHeadings(extractedHeadings);
     }, [blog.content]);

@@ -6,7 +6,7 @@ const TableOfContents = ({ headings }) => {
                 {headings.map((heading) => (
                     <li key={heading.id} style={{ marginLeft: `${heading.level - 1}rem` }}>
                         <a href={`#${heading.id}`} className="text-blue-600 hover:underline">
-                            {heading.text}
+                            {heading.counter ? `${heading.counter}. ` : "• "}{heading.text}
                         </a>
                     </li>
                 ))}

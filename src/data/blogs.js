@@ -10,19 +10,19 @@ export const blogs = [
 
 Si eres amante del café, seguro te has preguntado por qué el mismo grano puede ofrecer sabores tan distintos según el método de preparación.  La respuesta está en la forma en que el agua extrae los compuestos del café, afectando su cuerpo, acidez y amargor. En este artículo, exploraremos los principales métodos de preparación, sus diferencias y cómo elegir el adecuado según tus preferencias.
 
-## 1. Métodos de Descenso
+## Métodos de Descenso
 Estos métodos se caracterizan por permitir que el agua fluya a través del café molido por efecto de la gravedad, filtrando los sedimentos y dando como resultado una bebida limpia y brillante.
 
 - **V60:** Este método japonés utiliza un filtro de papel cónico con estrías en espiral, lo que permite un flujo de agua constante. Resalta la acidez.
 - **Chemex:** Con su diseño elegante y filtros más gruesos, la Chemex produce un café extremadamente limpio, con cuerpo ligero y acidez más evidente.
 
-## 2. Métodos de Presión
+## Métodos de Presión
 Estos métodos utilizan presión para extraer el café, resultando en bebidas con cuerpo más denso y sabores intensos.
 
 - **[Moka:](/blog/guia-metodos-moka)** También conocida como cafetera italiana, utiliza vapor de agua para empujar el líquido a través del café molido. Produce una bebida con sabor intenso y sensación en boca pesada.
 - **Sifón Japonés:** Un método visualmente impactante que usa presión de vapor y vacío para extraer el café. El resultado es una taza con cuerpo sedoso.
 
-## 3. Métodos de Inmersión
+## Métodos de Inmersión
 Aquí, el café permanece en contacto con el agua durante un tiempo determinado antes de ser filtrado, lo que da como resultado una bebida pesada y con sabores intensos.
 
 - **Prensa Francesa:** Uno de los métodos más clásicos. Permite que los aceites y sedimentos permanezcan en la bebida, aportando un cuerpo más robusto.
