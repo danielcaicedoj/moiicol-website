@@ -599,14 +599,117 @@ El sifón japonés no es solo una cafetera; es un testimonio de la pasión por e
     },
     {
       id: 7,
-      title: "Todo sobre la maquina de expreso",
+      title: "Todo sobre la prensa francesa",
       slug: "guia-metodos-aeropress",
       category: "Técnicas",
       date: "2025-03-16",
       image: "https://ejemplo.com/coldbrew.jpg",
       content: `
+## La historia de la prensa francesa: Tradición y simplicidad en la preparación del café
 
+La prensa francesa es uno de los métodos de preparación de café más tradicionales y apreciados en el mundo. Su diseño simple y su capacidad para extraer un café con cuerpo y profundidad la han convertido en una opción popular tanto para aficionados como para expertos. En este artículo, exploraremos su historia, funcionamiento, ventajas y desventajas, así como su impacto en la cultura del café.
 
+### El origen de la prensa francesa
+
+La invención de la prensa francesa se remonta al siglo XIX en Europa. Aunque existen varias versiones sobre su origen, se cree que fue patentada por primera vez en 1929 por el italiano Attilio Calimani. A lo largo de los años, la prensa francesa ha experimentado diversas modificaciones en su diseño, pero su esencia ha permanecido intacta: un cilindro de vidrio o acero con un émbolo de malla metálica que permite la inmersión total del café en el agua.
+
+A medida que la cultura del café se expandió en Europa y América, la prensa francesa ganó reconocimiento por su facilidad de uso y su capacidad de producir una infusión rica y aromática. Su popularidad se consolidó en la segunda mitad del siglo XX, convirtiéndola en un método de referencia en hogares y cafeterías.
+
+### El auge de la prensa francesa y su expansión global
+
+A diferencia de otros métodos de preparación, la prensa francesa ha mantenido su relevancia a lo largo de las décadas debido a su simplicidad y efectividad. Su expansión global se debe en gran parte a su facilidad de uso, su diseño portátil y su capacidad para resaltar los aceites y sabores naturales del café.
+
+Desde su introducción, la prensa francesa ha sido adoptada en diversas culturas, siendo utilizada no solo para preparar café, sino también para infusiones de té y otras bebidas. En la actualidad, sigue siendo un método preferido tanto por su conveniencia como por la calidad del café que produce.
+
+### Diseño y funcionalidad de la prensa francesa
+
+La prensa francesa se compone de tres elementos principales:
+
+1. Un cilindro de vidrio, acero inoxidable o plástico resistente al calor.
+
+2. Un émbolo con filtro de malla metálica, que separa los posos del café y permite una extracción sin necesidad de papel.
+
+3. Una tapa y un mango, diseñados para facilitar el proceso de preparación y servir el café de manera cómoda.
+
+Su funcionamiento es sencillo y eficaz, lo que la convierte en una opción ideal para quienes buscan una preparación sin complicaciones pero con gran profundidad de sabor.
+
+## Cómo preparar café con prensa francesa
+
+1. Calentar el agua a una temperatura entre 90-96°C.
+
+2. Añadir café molido grueso en la prensa francesa, utilizando una proporción de 1:15 o 1:16 (1 gramo de café por 15-16 gramos de agua).
+
+3. Verter el agua caliente de manera uniforme sobre el café y remover ligeramente para asegurar una extracción homogénea.
+
+4. Dejar reposar la infusión durante 4 minutos.
+
+5. Presionar lentamente el émbolo para filtrar los posos y separar la bebida.
+
+6. Servir y disfrutar un café con cuerpo y textura rica.
+
+## Ventajas y desventajas de la prensa francesa
+
+### Ventajas
+
+- Método sencillo sin necesidad de equipos eléctricos.
+
+- Resalta el cuerpo y los aceites naturales del café.
+
+- No requiere filtros de papel, lo que la hace más sostenible.
+
+- Fácil de transportar y utilizar en cualquier lugar.
+
+### Desventajas
+
+- Puede dejar residuos finos en la taza debido a su filtro de malla metálica.
+
+- Requiere una molienda gruesa para evitar obstrucciones en el filtro.
+
+- La limpieza puede ser más laboriosa en comparación con otros métodos de filtrado.
+
+## Mantenimiento y limpieza
+
+Para asegurar la durabilidad de la prensa francesa y la calidad del café, es importante realizar un mantenimiento adecuado después de cada uso.
+
+### Consejos para prolongar la vida útil de la prensa francesa
+
+- Lavar cada componente con agua caliente y un detergente suave.
+
+- Evitar golpes en modelos de vidrio para prevenir fracturas.
+
+- Revisar periódicamente el filtro para asegurar que esté en buen estado.
+
+### Cómo evitar la acumulación de residuos
+
+- Retirar los posos de café inmediatamente después de su uso.
+
+- Limpiar el filtro de malla con un cepillo o esponja suave.
+
+- Realizar una limpieza profunda con bicarbonato de sodio o vinagre cada cierto tiempo.
+
+## Variaciones y adaptaciones modernas
+
+### Modelos contemporáneos
+
+- Prensas de acero inoxidable, más duraderas y resistentes a golpes.
+
+- Prensas con doble filtro, diseñadas para reducir los sedimentos en la taza.
+
+- Versiones compactas y portátiles, ideales para viajeros y campistas.
+
+### Cafeteras inspiradas en la prensa francesa
+
+- Cafeteras de inmersión con filtro mejorado, como la Espro Press, que incorpora un sistema de doble filtrado.
+
+- Métodos híbridos, que combinan la inmersión con filtrado a presión para una extracción más limpia.
+
+### Impacto de la prensa francesa en la cultura del café
+
+La prensa francesa ha dejado una marca indeleble en la cultura del café, siendo un símbolo de preparación tradicional y accesible. Su capacidad para ofrecer una infusión con cuerpo y complejidad la ha mantenido vigente a pesar del auge de nuevos métodos de extracción.
+
+En el mundo del café de especialidad, sigue siendo una opción popular para quienes buscan una preparación sencilla sin sacrificar la calidad de la bebida. Ya sea en el hogar, en cafeterías o en entornos al aire libre, la prensa francesa continúa siendo una herramienta esencial para los amantes del café.
+
+Su legado perdura como un método clásico y confiable, demostrando que la simplicidad y la calidad pueden ir de la mano en la búsqueda de la taza de café perfecta.
       `
     }
   ];
