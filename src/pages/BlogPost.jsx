@@ -31,8 +31,8 @@ const BlogPost = () => {
     }, [blog.content]);
 
     return (
-        <div className="mx-auto my-8 px-4 md:px-6 md:bg-white md:p-4 md:shadow md:rounded-lg">
-            <div className="md:max-w-4xl md:mx-auto md:bg-white md:p-6 md:rounded-lg md:shadow-md prose">
+        <div className="mx-auto my-8 px-4 md:px-6 md:p-4 md:shadow md:rounded-lg">
+            <div className="md:max-w-4xl md:mx-auto md:p-6 md:rounded-lg md:shadow-md prose">
                 <h1 className="text-3xl font-bold mb-2">{blog.title}</h1>
                 {headings.length > 0 && <TableOfContents headings={headings} />}
 

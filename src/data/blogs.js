@@ -411,19 +411,189 @@ El Chemex es más que una cafetera; es un símbolo de elegancia, precisión y pa
       date: "2025-03-16",
       image: "https://ejemplo.com/coldbrew.jpg",
       content: `
+## La historia del V60: Precisión y arte en la preparación del café
 
+El V60 es uno de los métodos de preparación de café más icónicos dentro del mundo del café de especialidad. Su diseño en forma de cono y su espiral interna permiten una extracción uniforme, destacando las notas más sutiles del café. En este artículo, exploraremos su historia, funcionamiento, ventajas y desventajas, así como su impacto en la cultura del café.
+
+### El origen del V60
+
+El V60 fue desarrollado por la empresa japonesa Hario en 2004. Aunque los conos para filtrado de café ya existían, Hario perfeccionó el diseño creando un ángulo de 60 grados (de ahí su nombre) con un solo orificio en la base y estrías en espiral dentro del cono. Estos elementos permiten un flujo de agua controlado y una extracción más precisa.
+
+Hario, una compañía fundada en 1921 especializada en vidrio resistente al calor, buscaba mejorar la experiencia del café filtrado. Su invención pronto ganó popularidad en la escena del café de especialidad debido a su capacidad para realzar la claridad y complejidad de los sabores en la taza.
+
+### El auge del V60 y su expansión global
+
+Con el crecimiento de la tercera ola del café, el V60 se convirtió en un estándar para baristas y entusiastas del café en todo el mundo. Su diseño versátil permite ajustar variables como la velocidad de vertido, la molienda y la temperatura del agua para resaltar distintos perfiles sensoriales.
+
+Su adopción en competencias de barismo y en cafeterías especializadas ayudó a consolidarlo como un método de extracción imprescindible para quienes buscan un café limpio y complejo.
+
+### Diseño y funcionalidad del V60
+
+El V60 se caracteriza por:
+
+- Un cono con un ángulo de 60 grados, que favorece una extracción uniforme.
+
+- Estrías en espiral, que mejoran el flujo de agua y evitan que el filtro se adhiera a las paredes.
+
+- Un gran orificio en la base, permitiendo un mayor control sobre la velocidad de filtrado.
+
+El material del V60 puede variar entre cerámica, vidrio, plástico y metal, cada uno con sus propias ventajas en términos de retención térmica y durabilidad.
+
+## Cómo preparar café con V60
+
+1. Calentar el agua a una temperatura entre 90-96°C.
+
+2. Colocar un filtro de papel en el V60 y enjuagarlo con agua caliente para eliminar residuos y calentar el dispositivo.
+
+3. Agregar el café molido (molienda media-fina) en una proporción de 1:15 o 1:16 (1 gramo de café por 15-16 gramos de agua).
+
+4. Verter agua en movimientos circulares, comenzando con una preinfusión de 30 segundos.
+
+5. Continuar el vertido en intervalos, controlando el flujo para mantener una extracción equilibrada.
+
+6. Esperar a que el agua filtre completamente (aproximadamente 2:30-3:30 minutos) y disfrutar del café.
+
+## Ventajas y desventajas del V60
+
+### Ventajas
+
+- Permite un alto grado de control sobre la extracción.
+
+- Destaca la claridad y acidez del café.
+
+- Es fácil de transportar y mantener.
+
+- Disponible en varios materiales según las preferencias del usuario.
+
+### Desventajas
+
+- Requiere precisión y técnica para obtener buenos resultados.
+
+- Puede ser más difícil de dominar en comparación con otros métodos de filtrado.
+
+- Depende del uso de filtros de papel.
+
+### Impacto del V60 en la cultura del café de especialidad
+
+El V60 ha cambiado la manera en que los baristas y aficionados perciben la preparación del café. Su enfoque en la técnica y la experimentación ha llevado a una mayor apreciación por la calidad del grano y el proceso de extracción.
+
+Desde competencias de barismo hasta cafeterías de especialidad y hogares de entusiastas del café, el V60 se ha consolidado como un método esencial para aquellos que buscan explorar la riqueza sensorial del café. Su legado sigue creciendo, reafirmando su papel como un icono en la evolución del café de especialidad.
 
       `
     },
     {
       id: 6,
       title: "Todo sobre el Sifón Japones",
-      slug: "guia-metodos-aeropress",
+      slug: "guia-metodos-sifon-japones",
       category: "Técnicas",
       date: "2025-03-16",
       image: "https://ejemplo.com/coldbrew.jpg",
       content: `
+## La historia del sifón japonés: Arte y ciencia en la preparación del café
 
+El sifón japonés es uno de los métodos de preparación de café más espectaculares y meticulosos. Su funcionamiento basado en vacío y presión de vapor, junto con su estética elegante, lo han convertido en una opción popular entre baristas y entusiastas del café de especialidad. En este artículo, exploraremos su historia, funcionamiento, ventajas y desventajas, así como su mantenimiento y evolución a lo largo del tiempo.
+
+### El origen del sifón japonés
+
+El sifón de vacío fue inventado en el siglo XIX en Europa, específicamente en Alemania y Francia, como una alternativa para preparar café sin contacto directo con el fuego. Sin embargo, fue en Japón donde este método adquirió gran popularidad y refinamiento. Durante el siglo XX, la cultura japonesa del café adoptó el sifón como un símbolo de precisión y arte en la extracción, elevándolo a un nivel casi ceremonial.
+
+El diseño del sifón japonés, generalmente compuesto por dos cámaras de vidrio conectadas por un tubo y una fuente de calor externa, se ha mantenido fiel a sus orígenes. Su mecanismo de vacío y presión permite una extracción uniforme que resalta la claridad y complejidad del café.
+
+### El auge del sifón y su expansión global
+
+A pesar de su origen europeo, el sifón encontró en Japón su hogar definitivo. Cafeterías especializadas, conocidas como "kissaten", comenzaron a utilizarlo como un medio para ofrecer una experiencia sensorial única. Con el tiempo, su popularidad se expandió a otros países, especialmente entre los amantes del café de especialidad que buscan técnicas de preparación precisas y visualmente atractivas.
+
+Con el auge de la tercera ola del café, el sifón ha ganado aún más reconocimiento en la escena global, apareciendo en competencias de barismo y en cafeterías de alta gama. Su combinación de ciencia, arte y espectáculo lo ha convertido en una herramienta apreciada por quienes buscan explorar los matices del café.
+
+### Un diseño reconocido mundialmente
+
+El sifón japonés no es solo un método de preparación, sino también una pieza de diseño que combina funcionalidad y estética. Fabricado comúnmente con vidrio de borosilicato resistente al calor, permite visualizar todo el proceso de extracción, lo que lo hace tan fascinante como eficiente. Su estructura, que recuerda a instrumentos de laboratorio, lo distingue de otros métodos de preparación y lo convierte en una obra de ingeniería aplicada al café.
+
+### Evolución y relevancia actual
+
+En la actualidad, el sifón japonés sigue siendo un método apreciado tanto en cafeterías de especialidad como en el hogar de los entusiastas del café. Su uso ha sido impulsado por la búsqueda de nuevas experiencias sensoriales y por la tendencia de ritualizar la preparación del café. Algunas variaciones modernas incluyen materiales más resistentes y fuentes de calor eléctricas para una mayor estabilidad en la extracción.
+
+## Cómo funciona el sifón japonés
+
+El sifón japonés utiliza la presión de vapor para hacer ascender el agua caliente y mezclarla con el café molido antes de filtrar la infusión final. Su proceso de preparación es un espectáculo en sí mismo y requiere precisión en cada etapa.
+
+### Pasos para preparar café con sifón japonés:
+
+1. Agregar agua caliente en la cámara inferior y colocar la fuente de calor debajo.
+
+2. Encajar la cámara superior con el filtro asegurado y añadir el café molido (molienda media).
+
+3. Esperar a que el agua suba por el tubo debido a la presión del vapor.
+
+4. Remover suavemente el café cuando todo el agua haya ascendido.
+
+5. Retirar la fuente de calor para permitir que el vacío creado en la parte inferior extraiga el café filtrado.
+
+6. Servir y disfrutar una taza de café limpio y con cuerpo.
+
+## Ventajas y desventajas del sifón japonés
+
+### Ventajas
+
+- Extracción uniforme y equilibrada.
+
+- Destaca notas florales y frutales del café.
+
+- Presentación visualmente atractiva y elegante.
+
+- Materiales de alta calidad que no alteran el sabor.
+
+### Desventajas
+
+- Proceso complejo y mayor tiempo de preparación.
+
+- Requiere un cuidado especial en la manipulación del vidrio.
+
+- Necesidad de una fuente de calor controlada.
+
+- Precio más elevado en comparación con otros métodos de preparación.
+
+## Mantenimiento y limpieza
+
+Para asegurar la durabilidad del sifón japonés y la calidad del café, es esencial realizar una limpieza adecuada después de cada uso.
+
+### Consejos para prolongar la vida útil del sifón japonés
+
+- Lavar cada parte con agua tibia y un detergente suave.
+
+- Secar completamente antes de guardar para evitar olores y residuos.
+
+- Manipular con cuidado para evitar golpes y fisuras en el vidrio.
+
+### Cómo evitar la acumulación de residuos
+
+- Limpiar el filtro después de cada uso con agua caliente y un cepillo suave.
+
+- Realizar una limpieza profunda con bicarbonato de sodio y agua cada cierto tiempo.
+
+- Asegurar un almacenamiento adecuado para evitar daños en los componentes de vidrio.
+
+## Variaciones y adaptaciones modernas
+
+### Modelos contemporáneos
+
+- Sifón eléctrico: Equipado con calentadores integrados para mayor precisión en la temperatura.
+
+- Sifón con materiales reforzados: Modelos con vidrio templado o acero inoxidable para mayor resistencia.
+
+### Cafeteras inspiradas en el sifón japonés
+
+- Otras versiones de sifón al vacío: Existen modelos europeos y americanos con pequeñas variaciones en diseño y materiales.
+
+- Métodos de inmersión con control de temperatura: Alternativas como el Clever Dripper que permiten mayor control sin necesidad de vacío.
+
+### Impacto del sifón japonés en la cultura del café de especialidad
+
+El sifón japonés ha dejado una huella profunda en la escena del café de especialidad. Su combinación de arte, ciencia y precisión ha influenciado la manera en que se valora el café y ha elevado la experiencia sensorial de la extracción. En competencias de barismo, este método se utiliza para demostrar habilidad técnica y creatividad, mientras que en cafeterías especializadas, su uso simboliza dedicación y excelencia.
+
+Además, su estética llamativa ha convertido al sifón en un elemento icónico dentro de la cultura cafetera, capturando la atención de quienes buscan algo más que una simple taza de café. Su legado sigue creciendo, reafirmando su lugar como uno de los métodos de preparación más refinados y espectaculares.
+
+El sifón japonés no es solo una cafetera; es un testimonio de la pasión por el café bien preparado. Su historia, diseño y capacidad para resaltar los matices del café lo han consolidado como un clásico atemporal en la búsqueda del café perfecto.
 
       `
     },
