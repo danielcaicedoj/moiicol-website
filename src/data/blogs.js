@@ -5,7 +5,7 @@ export const blogs = [
       slug: "guia-introductoria-metodos-general",
       category: "Reseñas",
       date: "2025-03-18",
-      image: "https://ejemplo.com/cafe-colombia.jpg",
+      image: "",
       content: `
 
 Si eres amante del café, seguro te has preguntado por qué el mismo grano puede ofrecer sabores tan distintos según el método de preparación.  La respuesta está en la forma en que el agua extrae los compuestos del café, afectando su cuerpo, acidez y amargor. En este artículo, exploraremos los principales métodos de preparación, sus diferencias y cómo elegir el adecuado según tus preferencias.
@@ -43,9 +43,11 @@ Cada método aporta una experiencia sensorial única. La mejor forma de descubri
       slug: "guia-metodos-moka",
       category: "Recetas",
       date: "2025-03-17",
-      image: "https://ejemplo.com/espresso.jpg",
+      image: "moka-nobg.jpg",
       content: `
 ## La historia de la cafetera moka: Un icono del café italiano
+
+![Cafetera Moka Vintage](/assets/blogs/moka-nobg.jpg)
 
 La cafetera moka es un símbolo de la cultura italiana y una de las formas más populares de preparar café en casa. Su diseño simple pero ingenioso ha permitido a generaciones disfrutar de un café fuerte y aromático sin necesidad de equipos costosos. Sin embargo, su historia está llena de innovación, tradición y una estrategia comercial que transformó la manera en que el mundo consume café.
 

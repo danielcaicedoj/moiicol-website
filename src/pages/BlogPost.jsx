@@ -5,6 +5,7 @@ import remarkGfm from "remark-gfm";
 import { blogs } from "../data/blogs";
 import TableOfContents from "../components/TableOfContents";
 import ScrollToTopButton from "../components/ScrollToTopButton";
+import { blogImages } from "../data/blogImages";
 
 const BlogPost = () => {
     const { slug } = useParams();
@@ -55,20 +56,33 @@ const BlogPost = () => {
                             const id = props.children.toString().toLowerCase().replace(/\s+/g, "-");
                             return <h4 id={id} className="text-xl font-medium mt-5 mb-4" {...props} />;
                         },
-                        p: ({ node, ...props }) => <p className="text-base leading-relaxed mb-4" {...props} />, 
-                        ul: ({ node, ...props }) => <ul className="list-disc pl-5 mb-4" {...props} />, 
-                        ol: ({ node, ...props }) => <ol className="list-decimal pl-5 mb-4" {...props} />, 
-                        li: ({ node, ...props }) => <li className="mb-1" {...props} />, 
+                        p: ({ node, ...props }) => <p className="text-base leading-relaxed mb-4" {...props} />,
+                        ul: ({ node, ...props }) => <ul className="list-disc pl-5 mb-4" {...props} />,
+                        ol: ({ node, ...props }) => <ol className="list-decimal pl-5 mb-4" {...props} />,
+                        li: ({ node, ...props }) => <li className="mb-1" {...props} />,
                         a: ({ href, children, ...props }) => {
                             if (href.startsWith("/")) {
                                 return <Link to={href} className="text-blue-600 hover:underline" {...props}>{children}</Link>;
                             }
                             return <a href={href} target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline" {...props}>{children}</a>;
+                        },
+                        img: ({ src, alt, ...props }) => {
+                            const fileName = src.split("/").pop(); 
+                            const imagePath = blogImages[fileName] || src; 
+                            return (
+                                <img 
+                                    src={imagePath} 
+                                    alt={alt} 
+                                    className="w-full md:w-3/4 lg:w-2/3 mx-auto my-6 rounded-lg shadow-md object-cover"
+                                    {...props} 
+                                />
+                            );
                         }
                     }}
                 >
                     {blog.content}
                 </ReactMarkdown>
+
             </div>
             <ScrollToTopButton />
         </div>
@@ -76,6 +90,7 @@ const BlogPost = () => {
 };
 
 export default BlogPost;
+
 
 
 
