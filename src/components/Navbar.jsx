@@ -20,11 +20,11 @@ function Navbar() {
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="text-black font-bold text-xl">
-          <img src={logo} alt="Moii Logo" className="h-16 w-auto object-contain ml-4" />
+          <img src={logo} alt="Moii Logo" className="h-12 w-auto object-contain md:ml-4" />
         </Link>
 
         {/* Botón de menú para móviles */}
-        <button className="md:hidden text-black text-2xl" onClick={toggleMenu}>
+        <button className="md:hidden text-black text-3xl mr-2" onClick={toggleMenu}>
           {isOpen ? <FiX /> : <FiMenu />}
         </button>
 
@@ -34,16 +34,16 @@ function Navbar() {
             isOpen ? "block" : "hidden"
           } md:flex flex-col md:flex-row absolute md:static top-24 left-0 w-full md:w-auto bg-gray-200 md:bg-transparent text-center md:text-left`}
         >
-          <Link to="/" className="block text-gray-600 hover:text-black p-4 border-b md:border-none" onClick={closeMenu}>
+          <Link to="/" className="block text-gray-600 hover:text-black p-4 border-b border-gray-300 md:border-0" onClick={closeMenu}>
             Inicio
           </Link>
-          <Link to="/about" className="block text-gray-600 hover:text-black p-4 border-b md:border-none" onClick={closeMenu}>
+          <Link to="/about" className="block text-gray-600 hover:text-black p-4 border-b border-gray-300 md:border-0" onClick={closeMenu}>
             Acerca
           </Link>
-          <Link to="/blog" className="block text-gray-600 hover:text-black p-4 border-b md:border-none" onClick={closeMenu}>
+          <Link to="/blog" className="block text-gray-600 hover:text-black p-4 border-b border-gray-300 md:border-0" onClick={closeMenu}>
             Blog
           </Link>
-          <Link to="/contact" className="block text-gray-600 hover:text-black p-4 border-b md:border-none" onClick={closeMenu}>
+          <Link to="/contact" className="block text-gray-600 hover:text-black p-4 border-b md:border-0" onClick={closeMenu}>
             Productos
           </Link>
         </div>

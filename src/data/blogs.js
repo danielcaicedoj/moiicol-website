@@ -47,7 +47,7 @@ Cada método aporta una experiencia sensorial única. La mejor forma de descubri
       content: `
 ## La historia de la cafetera moka: Un icono del café italiano
 
-![Cafetera Moka Vintage](/assets/blogs/moka-nobg.jpg)
+![Cafetera Moka](/assets/blogs/moka-nobg.jpg)
 
 La cafetera moka es un símbolo de la cultura italiana y una de las formas más populares de preparar café en casa. Su diseño simple pero ingenioso ha permitido a generaciones disfrutar de un café fuerte y aromático sin necesidad de equipos costosos. Sin embargo, su historia está llena de innovación, tradición y una estrategia comercial que transformó la manera en que el mundo consume café.
 
@@ -289,10 +289,12 @@ La AeroPress es, sin duda, una de las invenciones más importantes en la prepara
       slug: "guia-metodos-chemex",
       category: "Técnicas",
       date: "2025-03-16",
-      image: "https://ejemplo.com/coldbrew.jpg",
+      image: "chemex-nobg.jpg",
       content: `
 
 ## La historia del Chemex: Elegancia y precisión en la preparación del café
+
+![Chemex](/assets/blogs/chemex-nobg.jpg)
 
 El Chemex es una de las cafeteras de goteo más icónicas y apreciadas en el mundo del café de especialidad. Su diseño elegante y su capacidad para extraer sabores limpios y complejos han convertido a esta cafetera en un referente dentro del universo del café. En este artículo, exploraremos su historia, funcionamiento, ventajas y desventajas, así como su mantenimiento y evolución a lo largo del tiempo.
 
@@ -411,9 +413,11 @@ El Chemex es más que una cafetera; es un símbolo de elegancia, precisión y pa
       slug: "guia-metodos-v60",
       category: "Técnicas",
       date: "2025-03-16",
-      image: "https://ejemplo.com/coldbrew.jpg",
+      image: "v60-nobg.jpg",
       content: `
 ## La historia del V60: Precisión y arte en la preparación del café
+
+![V60](/assets/blogs/v60-nobg.jpg)
 
 El V60 es uno de los métodos de preparación de café más icónicos dentro del mundo del café de especialidad. Su diseño en forma de cono y su espiral interna permiten una extracción uniforme, destacando las notas más sutiles del café. En este artículo, exploraremos su historia, funcionamiento, ventajas y desventajas, así como su impacto en la cultura del café.
 
