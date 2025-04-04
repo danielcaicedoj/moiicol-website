@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Home from './pages/Home';
 import About from './pages/About';
 import Products from './pages/Products';
@@ -25,6 +25,7 @@ function App() {
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/:slug" element={<BlogPost />} />
               <Route path="/products" element={<Products />} />
+              <Route path="*" element={<Navigate to="/" />} />
             </Routes>
         </main>  
           <Footer />

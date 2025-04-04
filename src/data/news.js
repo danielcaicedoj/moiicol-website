@@ -1,30 +1,33 @@
 export const news = [
     {
       id: 1,
-      title: "¡Refrescante y energizante coldbrew!",
-      category: "Reseñas",
+      title: "¡Conviertete en un experto del café!",
+      category: "blog",
       date: "2025-03-18",
       image: "https://ejemplo.com/cafe-colombia.jpg",
+      linkTo: "blog",
       content: `
 
-## Prueba nuestro coldbrew, café infusionado durante 24 horas en frio.
+## Revisa nuestro blog.
 
     `,
     },
     {
       id: 2,
       title: "Cómo preparar un espresso perfecto",
-      category: "Recetas",
+      category: "producto",
       date: "2025-03-17",
       image: "https://ejemplo.com/espresso.jpg",
+      linkTo: "",
       content: "Descubre los secretos para hacer un espresso con crema y cuerpo ideales."
     },
     {
       id: 3,
       title: "Diferencias entre Cold Brew y Café Helado",
-      category: "Técnicas",
+      category: "producto",
       date: "2025-03-16",
       image: "https://ejemplo.com/coldbrew.jpg",
+      linkTo: "",
       content: "¿Sabes qué los hace diferentes? Te explicamos todo sobre estas dos bebidas."
     }
   ];

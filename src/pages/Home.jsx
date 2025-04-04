@@ -16,6 +16,8 @@ const Home = () => {
                         key={news.id}
                         id = {news.id} 
                         title={news.title}
+                        category={news.category}
+                        linkTo={news.linkTo}
                         content={news.content.substring(0,250)} />)
                     ) : (
                     <p>No hay blogs disponibles.</p>

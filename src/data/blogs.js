@@ -176,10 +176,13 @@ La cafetera moka sigue siendo un ícono del café en casa, con versiones clásic
       slug: "guia-metodos-aeropress",
       category: "Técnicas",
       date: "2025-03-16",
-      image: "https://ejemplo.com/coldbrew.jpg",
+      image: "aeropress-nobg.png",
       content: `
 
 ## La historia de la AeroPress: Innovación en la preparación del café
+
+![Aeropress](/assets/blogs/aeropress-nobg.png)
+
 
 La AeroPress es una de las cafeteras más versátiles e innovadoras de los últimos tiempos. Su diseño simple pero efectivo ha revolucionado la forma en que se prepara el café, ofreciendo un método rápido, portátil y capaz de extraer sabores complejos con facilidad. En este artículo exploraremos su historia, funcionamiento, ventajas y desventajas, así como su mantenimiento y evolución a lo largo del tiempo.
 
@@ -606,7 +609,7 @@ El sifón japonés no es solo una cafetera; es un testimonio de la pasión por e
     {
       id: 7,
       title: "Todo sobre la prensa francesa",
-      slug: "guia-metodos-aeropress",
+      slug: "guia-metodos-prensa-francesa",
       category: "Técnicas",
       date: "2025-03-16",
       image: "https://ejemplo.com/coldbrew.jpg",
