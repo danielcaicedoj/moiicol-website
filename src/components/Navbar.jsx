@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi"; // Iconos de hamburguesa y cierre
-import logo from "../assets/moii-logo.png";
+import logo from "../assets/moii_logotipo_web_nobg.png";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +16,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="bg-gray-200 p-4 shadow-xl bg-gradient-to-b from-gray-100 to-gray-300">
+    <nav className="p-4 shadow-xl bg-[#f69810]">
       <div className="container mx-auto flex justify-between items-center">
         {/* Logo */}
         <Link to="/" className="text-black font-bold text-xl">
@@ -34,16 +34,16 @@ function Navbar() {
             isOpen ? "block" : "hidden"
           } md:flex flex-col md:flex-row absolute md:static top-24 left-0 w-full md:w-auto bg-gray-200 md:bg-transparent text-center md:text-left`}
         >
-          <Link to="/" className="block text-gray-600 hover:text-black p-4 border-b border-gray-300 md:border-0" onClick={closeMenu}>
+          <Link to="/" className="block text-black hover:text-white p-4 border-b border-gray-300 md:border-0" onClick={closeMenu}>
             Inicio
           </Link>
-          <Link to="/about" className="block text-gray-600 hover:text-black p-4 border-b border-gray-300 md:border-0" onClick={closeMenu}>
+          <Link to="/about" className="block text-black hover:text-white p-4 border-b border-gray-300 md:border-0" onClick={closeMenu}>
             Acerca
           </Link>
-          <Link to="/blog" className="block text-gray-600 hover:text-black p-4 border-b border-gray-300 md:border-0" onClick={closeMenu}>
+          <Link to="/blog" className="block text-black hover:text-white p-4 border-b border-gray-300 md:border-0" onClick={closeMenu}>
             Blog
           </Link>
-          <Link to="/contact" className="block text-gray-600 hover:text-black p-4 border-b md:border-0" onClick={closeMenu}>
+          <Link to="/contact" className="block text-black hover:text-white p-4 border-b md:border-0" onClick={closeMenu}>
             Productos
           </Link>
         </div>

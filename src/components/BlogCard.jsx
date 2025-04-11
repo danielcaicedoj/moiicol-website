@@ -4,7 +4,7 @@ import remarkGfm from "remark-gfm";
 
 const BlogCard = ({ slug, title, content, image }) => {
     return (
-        <div className="md:max-w-4xl md:mx-auto md:bg-white md:p-6 md:rounded-lg md:shadow-md">
+        <div className="md:max-w-4xl md:mx-auto md:bg-[#f8d16c] md:p-6 md:rounded-lg md:shadow-md">
             <h2 className="text-2xl font-bold mb-2">{title}</h2>
             {image && (
                 <img 
